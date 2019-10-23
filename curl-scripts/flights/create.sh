@@ -7,8 +7,8 @@ curl "http://localhost:4741/flights" \
     "flight": {
       "place": "'"${PLACE}"'",
       "date": "'"${DATE}"'",
-      "description": "'"${DESCRIPTION}"'",
-      "user_id": "'"${ID}"'"
+      "description": "'"${DESCRIPTION}"'"
+
     }
   }'
 
